@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            About
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 class="display-4">What is happening?</h1>
+            <p class="lead">Wellllll, I think this web app is built to calculate the Cost of Goods Sold <i class="em em-confused"></i>
+            </p>
+            <hr class="my-4">
+            <p>Yes it does calculate the Cost of Goods Sold and that so in seconds. I decided to make this Web App as initially it was taking
+                hours to calculate the COGS which was taking very important time away from the managers which they could have used to 
+                work on something else. Other reason is my personal beef with Microsoft Excel which I think takes huge amount of time and is very 
+                inefficient in doing heavy calculations on a big dataset. One can also read
+                 <a href="https://www.dataquest.io/blog/9-reasons-excel-users-should-consider-learning-programming/" target="_blank">this</a> wonderful article for 
+                 to gain more information about how learning programming is better than learning excel.
+            </p>
+            <a class="btn btn-primary btn-lg" href="{{ url_for('upload_file') }}" role="button">Home</a>
+            <a class="btn btn-primary btn-lg" href="{{url_for('help')}}" role="button">Help</a>
+        </div>
+    </body>
+</html>
