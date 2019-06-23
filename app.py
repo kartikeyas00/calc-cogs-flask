@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, url_for, send_file
 from werkzeug import secure_filename
 from classes.cogs import calc_cogs
+import os
 
 app = Flask(__name__)
 
@@ -42,4 +43,6 @@ def upload_file_calculate():
          return render_template('upload.html',COGS=calc.calculate()[0],Profit=calc.calculate()[1],items=calc.calculate()[2])
 		
 if __name__ == '__main__':
-   app.run(debug = True) 
+     app.debug = True
+     port = int(os.environ.get("PORT", 5000))
+     app.run(host='0.0.0.0', port=port) 
