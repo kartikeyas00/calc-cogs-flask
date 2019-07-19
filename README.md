@@ -9,4 +9,4 @@ This web app is built with Flask is a micro web framework written in Python. Mai
 | pandas     | pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.|
 | numpy| NumPy is an open source, BSD-licensed library providing adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. |
 
-![Screenshot](https://raw.github.com/kartikeyas00/calc-cogs-flask/master/screenshots/screenshot.jpeg)
+![Screenshot](https://github.com/kartikeyas00/calc-cogs-flask/blob/master/screenshot/screenshot.jpeg)
