@@ -2,7 +2,7 @@
 This is a simple web app which calculates COGS for the Java Junction Coffee (Student run Coffee Shop in Goshen College). It makes the 
 tedious process of calculating COGS very simple and fast. Web App is available at https://calc-cogs.herokuapp.com/
 
-This web app is built with Flask is a micro web framework written in Python. Main libraries used in this app are -   
+This web app is built with Flask, which is a micro web framework written in Python. Main libraries used in this app are -   
 
 | Libraries | Description |
 | -----------| ------------|
